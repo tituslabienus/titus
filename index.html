@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+var password = "please";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("Come right in);
+
+}
+else {
+ window.location = "index.html";
+}
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
@@ -165,6 +176,9 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 </script>
-
+<audio controls>
+  <source src="greek.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 </body>
 </html> 
